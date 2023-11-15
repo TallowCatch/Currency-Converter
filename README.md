@@ -62,10 +62,6 @@ The JavaScript code:
 
 Errors, particularly in fetching data from the API, are handled gracefully with error messages logged to the console.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 **Note**: Replace the API key in the fetch URL with your own key from ExchangeRate-API for the application to work properly.
