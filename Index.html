@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Currency Converter</h1>
+        <label for="amount">Please insert amount here:</label>
+        <input type="number" id="amount" placeholder="Enter amount" max="999999999" />
+
+        <label for="sourceCurrency">Convert from:</label>
+        <select id="sourceCurrency"></select>
+
+        <label for="destinationCurrency">To:</label>
+        <select id="destinationCurrency"></select>
+
+        <button id="swap">Swap</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="currency_converter.js"></script>
+</body>
+</html>
